@@ -15,6 +15,11 @@
 }
 .header__logo{
     height:1.05rem;
+    transition: .2s;
+}
+.header__logo:hover{
+    transform: scale(.99);
+    opacity:.8;
 }
 .header__list{
     display: flex;

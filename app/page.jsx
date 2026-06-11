@@ -14,16 +14,16 @@ export default function Home() {
     useEffect(() => {
         gsap.fromTo(".hero__bg",{scale:.95,opacity:.0},{scale:1,duration: 2,ease: "power2.out",opacity:1});
         gsap.fromTo(".hero__content",{opacity: 0,x: -100,},{opacity: 1,x: 0,duration: 1,ease: "power3.out",});
-        gsap.fromTo(".principles__header",{opacity:0,y:40},{opacity:1,y:0,duration:.6,ease:"power3.out",scrollTrigger:{trigger:".principles__header",start:"top 80%"}})
+        gsap.fromTo(".principles__header",{opacity:0,y:40},{opacity:1,y:0,duration:.8,ease:"power3.out",scrollTrigger:{trigger:".principles__header",start:"top 80%"}})
         gsap.fromTo(".principles__item",{opacity:0,y:40},{opacity:1,y:0,duration:1.2,stagger:.25,ease:"power3.inOut",scrollTrigger:{trigger:".principles__item",start:"top 80%"}})
-        gsap.fromTo(".bidding__container-anim",{opacity:0,x:-100},{opacity:1,x:0,duration:.6,ease:"power3.out",scrollTrigger:{trigger:".bidding__container",start:"top 60%"}})
+        gsap.fromTo(".bidding__container-anim",{opacity:0,x:-100},{opacity:1,x:0,duration:1,ease:"power3.out",scrollTrigger:{trigger:".bidding__container",start:"top 60%"}})
         gsap.fromTo(".bidding__bg",{scale:1.1},{scale:1,delay:.1,duration:1,ease:"power3.out",scrollTrigger:{trigger:".bidding__container",start:"top 60%"}})
-        gsap.fromTo(".how-it-works__header",{opacity:0,y:40},{opacity:1,y:0,duration:.6,ease:"power3.out",scrollTrigger:{trigger:".how-it-works__header",start:"top 80%"}})
+        gsap.fromTo(".how-it-works__header",{opacity:0,y:40},{opacity:1,y:0,duration:.8,ease:"power3.out",scrollTrigger:{trigger:".how-it-works__header",start:"top 80%"}})
         gsap.fromTo(".how-it-works__step",{opacity:0},{opacity:1,duration:1,stagger:.15,ease:"power3.out",scrollTrigger:{trigger:".how-it-works__steps",start:"top 60%"}})
         gsap.fromTo(".how-it-works__step-content",{y:40},{y:0,duration:1,stagger:.15,ease:"power3.out",scrollTrigger:{trigger:".how-it-works__steps",start:"top 60%"}})
 
         gsap.fromTo(".how-it-works__line_main",{transform:"translate(100px , 6px) scaleX(0%)"},{transform:"translate(100px , 6px) scaleX(100%)",duration:1.5,ease:"power1.inOut",scrollTrigger:{trigger:".how-it-works__steps",start:"top 60%"}})
-        gsap.fromTo(".onboarding__content",{opacity:0,x:-100},{opacity:1,x:0,duration:.6,ease:"power3.out",scrollTrigger:{trigger:".onboarding__content",start:"top 60%"}})
+        gsap.fromTo(".onboarding__content",{opacity:0,x:-100},{opacity:1,x:0,duration:.8,ease:"power3.out",scrollTrigger:{trigger:".onboarding__content",start:"top 60%"}})
         gsap.fromTo(".onboarding__visual",{y:200,opacity:0},{y:0,opacity:1,duration:.8,ease:"power3.out",scrollTrigger:{trigger:".onboarding__content",start:"top 60%"}})
         
         const path = document.querySelector(".svg-line path");
