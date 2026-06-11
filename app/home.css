@@ -1,3 +1,4 @@
+.hero__bg,.hero__content,.principles__header,.principles__item,.bidding__container-anim,.bidding__bg,.how-it-works__header,.how-it-works__step,.how-it-works__step-content,.how-it-works__line_main,.onboarding__content,.onboarding__visual{will-change:transform,opacity;}
 .hero{
     height:100svh;
     border-bottom: 1px solid var(--color-700);
@@ -451,6 +452,7 @@
     font-weight: 400;
     font-size: var(--text-sm);
 }
+.how-it-works__step-content{transform: translateY(40px);}
 .how-it-works__step:first-child{text-align:start;}
 .how-it-works__step:last-child{text-align:end;}
 .bodFirst{transform: translateX(-10px);}
